@@ -44,6 +44,12 @@ class Login extends React.Component {
                 <Nav className="nav-footer justify-content-center justify-content-xl-end">
                   <NavItem>
                     <NavLink
+<<<<<<< HEAD
+                      href="https://www.furg.br/"
+                      target="_blank"
+                    >
+                      Sobre nós
+=======
                       href="#"
                       target="_blank"
                     >
@@ -56,6 +62,7 @@ class Login extends React.Component {
                       target="_blank"
                     >
                       About Us
+>>>>>>> 3a4f10bd300697b295a26a72ea9a5326e88831ce
                     </NavLink>
                   </NavItem>
                   <NavItem>
