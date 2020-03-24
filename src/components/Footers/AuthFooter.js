@@ -33,10 +33,10 @@ class Login extends React.Component {
                   © 2018{" "}
                   <a
                     className="font-weight-bold ml-1"
-                    href="https://www.creative-tim.com?ref=adr-auth-footer"
+                    href="#"
                     target="_blank"
                   >
-                    Creative Tim
+                    COVIDA19
                   </a>
                 </div>
               </Col>
@@ -44,15 +44,30 @@ class Login extends React.Component {
                 <Nav className="nav-footer justify-content-center justify-content-xl-end">
                   <NavItem>
                     <NavLink
+<<<<<<< HEAD
                       href="https://www.furg.br/"
                       target="_blank"
                     >
                       Sobre nós
+=======
+                      href="#"
+                      target="_blank"
+                    >
+                      COVIDA19
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adr-auth-footer"
+                      href="#"
+                      target="_blank"
+                    >
+                      About Us
+>>>>>>> 3a4f10bd300697b295a26a72ea9a5326e88831ce
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      href="#"
                       target="_blank"
                     >
                       Blog
@@ -60,7 +75,7 @@ class Login extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-auth-footer"
+                      href="#"
                       target="_blank"
                     >
                       MIT License

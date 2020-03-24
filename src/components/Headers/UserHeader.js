@@ -50,7 +50,7 @@ class UserHeader extends React.Component {
                   href="#pablo"
                   onClick={e => e.preventDefault()}
                 >
-                  Edit profile
+                  Editar Perfil
                 </Button>
               </Col>
             </Row>
