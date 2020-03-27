@@ -25,12 +25,14 @@ import "assets/scss/argon-dashboard-react.scss";
 
 import AdminLayout from "layouts/Admin.js";
 import AuthLayout from "layouts/Auth.js";
+import SinglePageLayout from "layouts/SinglePage.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/admin" render={props => <AdminLayout {...props} />} />
       <Route path="/auth" render={props => <AuthLayout {...props} />} />
+      <Route path="/singlepage" render={props => <SinglePageLayout {...props} />} />
       <Redirect from="/" to="/admin/index" />
     </Switch>
   </BrowserRouter>,
