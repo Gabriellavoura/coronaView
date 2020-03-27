@@ -52,11 +52,10 @@ class Login extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="#"
+                      href="https://www.furg.br/"
                       target="_blank"
                     >
-                      About Us
->>>>>>> 3a4f10bd300697b295a26a72ea9a5326e88831ce
+                      Sobre nós
                     </NavLink>
                   </NavItem>
                   <NavItem>

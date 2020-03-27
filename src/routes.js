@@ -77,9 +77,9 @@ var routes = [
   {
   path: "/mapa",
   name: "Mapa",
-  icon: "ni ni-key-25 text-info",
+  icon: "ni ni-pin-3 text-orange",
   component: Mapa,
-  layout: "/admin"
+  layout: "/singlepage"
 }
 ];
 export default routes;
